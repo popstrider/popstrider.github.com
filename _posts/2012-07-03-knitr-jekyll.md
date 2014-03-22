@@ -20,8 +20,6 @@ Create a Jekyll-Boostrap blog if you don't already have one.
 A brief tutorial on building this blog is available 
 [here](/lessons/2012/05/30/jekyll-build-on-windows/).
 
-$$x^2+y^2=1$$.
-
 ### Step 2
 
 Open the R Console and process the source file:
