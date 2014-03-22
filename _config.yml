@@ -5,20 +5,20 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 auto: true
 pygments: true
 
-title : jfisher-usgs
-tagline: blog
+title : 上善若水
+tagline: Site Tagline
 author :
-  name : Jason C Fisher
-  email : jfisher@usgs.gov
-  github : jfisher-usgs
-  twitter : username
-  feedburner : jfisher-usgs
+  name : Tiger Liu
+  email : pophoo521@gmail.com
+  github : popstrider
+  twitter : LiuTiger1
+  feedburner : popstrider
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
 #
-production_url : http://jfisher-usgs.github.com
+production_url : http://popstrider.github.io
 
 # The number of posts per page
 paginate: 3
@@ -73,7 +73,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jfisherusgs
+      short_name : pophoo
     livefyre :
       site_id : 123
     intensedebate :
