@@ -26,7 +26,6 @@ $$x^2+y^2=1$$.
 
 Open the R Console and process the source file:
 
-
 {% highlight r %}
 KnitPost <- function(input, base.url = "/") {
     require(knitr)
@@ -39,8 +38,6 @@ KnitPost <- function(input, base.url = "/") {
 }
 KnitPost("2012-07-03-knitr-jekyll.Rmd")
 {% endhighlight %}
-
-
 
 
 ### Step 3
@@ -68,7 +65,6 @@ That's it.
 
 Here are a few examples of embedding R code:
 
-
 {% highlight r %}
 summary(cars)
 {% endhighlight %}
@@ -82,11 +78,8 @@ summary(cars)
 ##  Median :15.0   Median : 36  
 ##  Mean   :15.4   Mean   : 43  
 ##  3rd Qu.:19.0   3rd Qu.: 56  
-##  Max.   :25.0   Max.   :120  
+##  Max.   :25.0   Max.   :120
 {% endhighlight %}
-
-
-
 
 
 
@@ -100,7 +93,6 @@ plot(cars)
 ##### Figure 1: Caption
 
 
-
 {% highlight r %}
 par(mar = c(2.5, 2.5, 0.5, 0.1), omi = c(0, 0, 0, 0))
 filled.contour(volcano)
@@ -112,7 +104,6 @@ filled.contour(volcano)
 
 And don't forget your session information for proper reproducible research.
 
-
 {% highlight r %}
 sessionInfo()
 {% endhighlight %}
@@ -120,26 +111,23 @@ sessionInfo()
 
 
 {% highlight text %}
-## R version 2.15.1 (2012-06-22)
-## Platform: x86_64-pc-mingw32/x64 (64-bit)
+## R version 3.0.3 (2014-03-06)
+## Platform: i386-w64-mingw32/i386 (32-bit)
 ## 
 ## locale:
-## [1] LC_COLLATE=English_United States.1252 
-## [2] LC_CTYPE=English_United States.1252   
-## [3] LC_MONETARY=English_United States.1252
-## [4] LC_NUMERIC=C                          
-## [5] LC_TIME=English_United States.1252    
+## [1] LC_COLLATE=Chinese (Simplified)_People's Republic of China.936 
+## [2] LC_CTYPE=Chinese (Simplified)_People's Republic of China.936   
+## [3] LC_MONETARY=Chinese (Simplified)_People's Republic of China.936
+## [4] LC_NUMERIC=C                                                   
+## [5] LC_TIME=Chinese (Simplified)_People's Republic of China.936    
 ## 
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-## [1] knitr_0.6.3
+## [1] knitr_1.5
 ## 
 ## loaded via a namespace (and not attached):
-## [1] digest_0.5.2   evaluate_0.4.2 formatR_0.5    plyr_1.7.1    
-## [5] stringr_0.6    tools_2.15.1  
+## [1] evaluate_0.5.1 formatR_0.10   stringr_0.6.2  tools_3.0.3
 {% endhighlight %}
-
-
 
